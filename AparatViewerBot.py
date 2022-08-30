@@ -47,7 +47,7 @@ class AparatViewer:
         on_off_mode = {True: 'On', False: 'Off'}
         print(f'--| Number of views you asked for each video is: {self.num_of_views}')
         print(f'--| Work in silence is: {on_off_mode[self.work_in_silence]}')
-        print(f'--| Window in hidden is: {on_off_mode[self.work_in_hidden]}')
+        print(f'--| Work in hidden is: {on_off_mode[self.work_in_hidden]}')
         print(f'--| Refresh is set to {self.view_duration} sec.')
         print(f'--| Number of videos: {len(self.url_list)}')
 
